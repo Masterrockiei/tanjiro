@@ -920,7 +920,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "source":
         buttons = [[
-            InlineKeyboardButton('SOURCE CODE', url='https://github.com/MrMKN/PROFESSOR-BOT')
+            InlineKeyboardButton('SOURCE CODE', url='https://t.me/ammal_nath_05')
             ],[
             InlineKeyboardButton('👩‍🦯 Back', callback_data='about')
         ]]
@@ -1087,7 +1087,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )    
     elif query.data == "extra":
         buttons = [[
-            InlineKeyboardButton('⚙️ 𝙰𝙳𝙼𝙸𝙽 𝙾𝙽𝙻𝚈 ⚙️', callback_data='admin')
+            InlineKeyboardButton('⚙️ 𝙰𝙳𝙼𝙸𝙽 𝙾𝙽𝙻𝚈', callback_data='admin')
             ],[
             InlineKeyboardButton('🔙 𝙱𝙰𝙲𝙺', callback_data='help'),
         ]]
